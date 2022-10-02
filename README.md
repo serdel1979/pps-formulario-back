@@ -1,6 +1,6 @@
 # Formulario back
 
-Ejemplo de validación de entrada en un formulari - Nestjs
+Ejemplo de validación de entrada en un formulario - Nestjs
 
 ## Clonar proyecto
 
