@@ -11,5 +11,5 @@ export class CreateSignupDto {
     @IsNotEmpty()
     @IsString()
     @MinLength(6)
-    repeatPass: string;
+    repeatPass?: string;
 }

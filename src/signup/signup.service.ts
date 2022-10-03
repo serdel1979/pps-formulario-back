@@ -16,7 +16,7 @@ export class SignupService {
       throw new NotFoundException('Invalid data'); 
     }
     const hash = await this.hashPassword(createSignupDto.password);
-    let user = {...createSignupDto, password: hash}
+    let user = {email: createSignupDto.email, password: hash}
     console.log("Guardado en base de datos ",user);
     return user;
   }
